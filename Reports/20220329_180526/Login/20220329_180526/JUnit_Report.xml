@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="22.617" tests="2" failures="0" errors="0">
+   <testsuite name="Login" tests="2" failures="0" errors="0" time="22.617" skipped="0" timestamp="2022-03-29 18:05:28" hostname="erikabonganay - 127.10.0.4" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/erikabonganay/git/katalon-training/Reports/20220329_180526/Login/20220329_180526"/>
+         <property name="logFiles" value="/Users/erikabonganay/git/katalon-training/Reports/20220329_180526/Login/20220329_180526/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="erikabonganay - 127.10.0.4"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.83"/>
+         <property name="hostAddress" value="127.10.0.4"/>
+         <property name="sessionId" value="a9bdf4982bf3dc3a1c78b7ece094dc79"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/UnsuccessfulLogin" time="13.808" classname="Test Cases/UnsuccessfulLogin" status="PASSED">
+         <system-out><![CDATA[2022-03-29 18:05:28 - [TEST_CASE][PASSED] - Test Cases/UnsuccessfulLogin: Test Cases/UnsuccessfulLogin
+
+2022-03-29 18:05:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-29 18:05:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-29 18:05:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-29 18:05:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-29 18:05:30 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-store.katalon.com/"): Navigate to 'https://demo-store.katalon.com/' successfully
+
+2022-03-29 18:05:34 - [MESSAGE][PASSED] - Navigate to 'https://demo-store.katalon.com/' successfully
+
+2022-03-29 18:05:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UnsuccessfulLogin/Page_Zack Market/svg_Zack Market_svg-inline--fa fa-user fa-w-14")): Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/svg_Zack Market_svg-inline--fa fa-user fa-w-14' is clicked on
+
+2022-03-29 18:05:35 - [MESSAGE][PASSED] - Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/svg_Zack Market_svg-inline--fa fa-user fa-w-14' is clicked on
+
+2022-03-29 18:05:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/UnsuccessfulLogin/Page_Zack Market/input_Email_email"), "erika@"): Text 'erika@' is set on object 'Object Repository/UnsuccessfulLogin/Page_Zack Market/input_Email_email'
+
+2022-03-29 18:05:36 - [MESSAGE][PASSED] - Text 'erika@' is set on object 'Object Repository/UnsuccessfulLogin/Page_Zack Market/input_Email_email'
+
+2022-03-29 18:05:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UnsuccessfulLogin/Page_Zack Market/div_Emailinvalid emailPasswordDont you have_fe3a1f")): Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/div_Emailinvalid emailPasswordDont you have_fe3a1f' is clicked on
+
+2022-03-29 18:05:36 - [MESSAGE][PASSED] - Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/div_Emailinvalid emailPasswordDont you have_fe3a1f' is clicked on
+
+2022-03-29 18:05:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UnsuccessfulLogin/Page_Zack Market/div_invalid email")): Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/div_invalid email' is clicked on
+
+2022-03-29 18:05:36 - [MESSAGE][PASSED] - Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/div_invalid email' is clicked on
+
+2022-03-29 18:05:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/UnsuccessfulLogin/Page_Zack Market/input_Email_email"), "erika1231@mailinator.com"): Text 'erika1231@mailinator.com' is set on object 'Object Repository/UnsuccessfulLogin/Page_Zack Market/input_Email_email'
+
+2022-03-29 18:05:37 - [MESSAGE][PASSED] - Text 'erika1231@mailinator.com' is set on object 'Object Repository/UnsuccessfulLogin/Page_Zack Market/input_Email_email'
+
+2022-03-29 18:05:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/UnsuccessfulLogin/Page_Zack Market/input_Password_password"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/UnsuccessfulLogin/Page_Zack Market/input_Password_password'
+
+2022-03-29 18:05:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/UnsuccessfulLogin/Page_Zack Market/input_Password_password'
+
+2022-03-29 18:05:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UnsuccessfulLogin/Page_Zack Market/input_password has to be 6-15 letter_button_3a5f49")): Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/input_password has to be 6-15 letter_button_3a5f49' is clicked on
+
+2022-03-29 18:05:38 - [MESSAGE][PASSED] - Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/input_password has to be 6-15 letter_button_3a5f49' is clicked on
+
+2022-03-29 18:05:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UnsuccessfulLogin/Page_Zack Market/div_password has to be 6-15 letter")): Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/div_password has to be 6-15 letter' is clicked on
+
+2022-03-29 18:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/div_password has to be 6-15 letter' is clicked on
+
+2022-03-29 18:05:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/UnsuccessfulLogin/Page_Zack Market/input_Password_password"), "p4y+y39Ir5MSxNs1t5lTZQ=="): Text ****** has been set on object 'Object Repository/UnsuccessfulLogin/Page_Zack Market/input_Password_password'
+
+2022-03-29 18:05:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/UnsuccessfulLogin/Page_Zack Market/input_Password_password'
+
+2022-03-29 18:05:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UnsuccessfulLogin/Page_Zack Market/input_password has to be 6-15 letter_button_3a5f49")): Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/input_password has to be 6-15 letter_button_3a5f49' is clicked on
+
+2022-03-29 18:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/input_password has to be 6-15 letter_button_3a5f49' is clicked on
+
+2022-03-29 18:05:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UnsuccessfulLogin/Page_Zack Market/img_Email_loginsignin_login_image__3EzyQ")): Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/img_Email_loginsignin_login_image__3EzyQ' is clicked on
+
+2022-03-29 18:05:41 - [MESSAGE][PASSED] - Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/img_Email_loginsignin_login_image__3EzyQ' is clicked on
+
+2022-03-29 18:05:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UnsuccessfulLogin/Page_Zack Market/input_password has to be 6-15 letter_button_3a5f49")): Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/input_password has to be 6-15 letter_button_3a5f49' is clicked on
+
+2022-03-29 18:05:41 - [MESSAGE][PASSED] - Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/input_password has to be 6-15 letter_button_3a5f49' is clicked on
+
+2022-03-29 18:05:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UnsuccessfulLogin/Page_Zack Market/img_Email_loginsignin_login_image__3EzyQ")): Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/img_Email_loginsignin_login_image__3EzyQ' is clicked on
+
+2022-03-29 18:05:42 - [MESSAGE][PASSED] - Object: 'Object Repository/UnsuccessfulLogin/Page_Zack Market/img_Email_loginsignin_login_image__3EzyQ' is clicked on
+
+2022-03-29 18:05:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-29 18:05:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SuccessfulLogin" time="8.64" classname="Test Cases/SuccessfulLogin" status="PASSED">
+         <system-out><![CDATA[2022-03-29 18:05:42 - [TEST_CASE][PASSED] - Test Cases/SuccessfulLogin: Test Cases/SuccessfulLogin
+
+2022-03-29 18:05:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-29 18:05:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-29 18:05:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-29 18:05:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-29 18:05:43 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-store.katalon.com/"): Navigate to 'https://demo-store.katalon.com/' successfully
+
+2022-03-29 18:05:47 - [MESSAGE][PASSED] - Navigate to 'https://demo-store.katalon.com/' successfully
+
+2022-03-29 18:05:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SuccessfulLogin/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ")): Object: 'Object Repository/SuccessfulLogin/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ' is clicked on
+
+2022-03-29 18:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/SuccessfulLogin/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ' is clicked on
+
+2022-03-29 18:05:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SuccessfulLogin/Page_Zack Market/input_Email_email"), "erika1231@mailinator.com"): Text 'erika1231@mailinator.com' is set on object 'Object Repository/SuccessfulLogin/Page_Zack Market/input_Email_email'
+
+2022-03-29 18:05:48 - [MESSAGE][PASSED] - Text 'erika1231@mailinator.com' is set on object 'Object Repository/SuccessfulLogin/Page_Zack Market/input_Email_email'
+
+2022-03-29 18:05:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/SuccessfulLogin/Page_Zack Market/input_Password_password"), "0cU2R0tWEjl49ICU6OTr2A=="): Text ****** has been set on object 'Object Repository/SuccessfulLogin/Page_Zack Market/input_Password_password'
+
+2022-03-29 18:05:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuccessfulLogin/Page_Zack Market/input_Password_password'
+
+2022-03-29 18:05:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SuccessfulLogin/Page_Zack Market/input_Password_button_btn__2lzmo")): Object: 'Object Repository/SuccessfulLogin/Page_Zack Market/input_Password_button_btn__2lzmo' is clicked on
+
+2022-03-29 18:05:49 - [MESSAGE][PASSED] - Object: 'Object Repository/SuccessfulLogin/Page_Zack Market/input_Password_button_btn__2lzmo' is clicked on
+
+2022-03-29 18:05:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SuccessfulLogin/Page_Zack Market/div_Zack Market")): Object: 'Object Repository/SuccessfulLogin/Page_Zack Market/div_Zack Market' is clicked on
+
+2022-03-29 18:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/SuccessfulLogin/Page_Zack Market/div_Zack Market' is clicked on
+
+2022-03-29 18:05:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-29 18:05:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-29 18:05:28 - [TEST_SUITE][PASSED] - Login: Test Cases/SuccessfulLogin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
