@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuiteDataDriven,Chrome 100.0.4896.127,,,2022-04-26 14:46:15,2022-04-26 14:46:34,19.679s,PASSED
+,,,,,,,
+Test Cases/DataDrivenTest/TestCaseDataDriven,Chrome 100.0.4896.127,,,2022-04-26 14:46:15,2022-04-26 14:46:25,10.398s,PASSED
+"openBrowser(""https://demo-store.katalon.com/"")",Chrome 100.0.4896.127,,,2022-04-26 14:46:15,2022-04-26 14:46:22,6.690s,PASSED
+"click(findTestObject(""Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ""))",Chrome 100.0.4896.127,,,2022-04-26 14:46:22,2022-04-26 14:46:22,0.359s,PASSED
+"setText(findTestObject(""Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email""), Username)",Chrome 100.0.4896.127,,,2022-04-26 14:46:22,2022-04-26 14:46:23,0.945s,PASSED
+"setText(findTestObject(""Object Repository/DataDriven_OR/Page_Zack Market/input_Password_password""), Password)",Chrome 100.0.4896.127,,,2022-04-26 14:46:23,2022-04-26 14:46:24,0.750s,PASSED
+"click(findTestObject(""Object Repository/DataDriven_OR/Page_Zack Market/input_Required_button_btn__2lzmo""))",Chrome 100.0.4896.127,,,2022-04-26 14:46:24,2022-04-26 14:46:24,0.288s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market""), 0)",Chrome 100.0.4896.127,,,2022-04-26 14:46:24,2022-04-26 14:46:25,1.078s,PASSED
+closeBrowser(),Chrome 100.0.4896.127,,,2022-04-26 14:46:25,2022-04-26 14:46:25,0.088s,PASSED
+,,,,,,,
+Test Cases/DataDrivenTest/TestCaseDataDriven,Chrome 100.0.4896.127,,,2022-04-26 14:46:25,2022-04-26 14:46:34,9.058s,PASSED
+"openBrowser(""https://demo-store.katalon.com/"")",Chrome 100.0.4896.127,,,2022-04-26 14:46:25,2022-04-26 14:46:31,5.430s,PASSED
+"click(findTestObject(""Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ""))",Chrome 100.0.4896.127,,,2022-04-26 14:46:31,2022-04-26 14:46:31,0.405s,PASSED
+"setText(findTestObject(""Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email""), Username)",Chrome 100.0.4896.127,,,2022-04-26 14:46:31,2022-04-26 14:46:32,0.819s,PASSED
+"setText(findTestObject(""Object Repository/DataDriven_OR/Page_Zack Market/input_Password_password""), Password)",Chrome 100.0.4896.127,,,2022-04-26 14:46:32,2022-04-26 14:46:33,0.852s,PASSED
+"click(findTestObject(""Object Repository/DataDriven_OR/Page_Zack Market/input_Required_button_btn__2lzmo""))",Chrome 100.0.4896.127,,,2022-04-26 14:46:33,2022-04-26 14:46:33,0.312s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market""), 0)",Chrome 100.0.4896.127,,,2022-04-26 14:46:33,2022-04-26 14:46:34,1.148s,PASSED
+closeBrowser(),Chrome 100.0.4896.127,,,2022-04-26 14:46:34,2022-04-26 14:46:34,0.085s,PASSED
