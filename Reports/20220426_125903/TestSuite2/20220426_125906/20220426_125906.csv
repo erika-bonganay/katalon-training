@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite2,Firefox 99.0,,,2022-04-26 12:59:10,2022-04-26 12:59:40,30.489s,PASSED
+,,,,,,,
+Test Cases/Test3,Firefox 99.0,,,2022-04-26 12:59:10,2022-04-26 12:59:40,30.288s,PASSED
+"openBrowser(""https://lifecharger.org"")",Firefox 99.0,,,2022-04-26 12:59:10,2022-04-26 12:59:25,14.954s,PASSED
+"setText(findTestObject(""Test3_OR/Page_Life Charger   a new beginning/input_Search for_s""), ""Life"")",Firefox 99.0,,,2022-04-26 12:59:25,2022-04-26 12:59:26,0.799s,PASSED
+"click(findTestObject(""Test3_OR/Page_Life Charger   a new beginning/button_Search for_search-submit""))",Firefox 99.0,,,2022-04-26 12:59:26,2022-04-26 12:59:34,7.985s,PASSED
+"click(findTestObject(""Test3_OR/Page_Make the rest of your life the best of your life  Life Charger/a_Make the rest of your life the best of your life""))",Firefox 99.0,,,2022-04-26 12:59:34,2022-04-26 12:59:39,5.262s,PASSED
+"verifyElementPresent(findTestObject(""Test3_OR/Page_Search Results for life  Life Charger/a_Make the rest of your life the best of your life""), 0)",Firefox 99.0,,,2022-04-26 12:59:39,2022-04-26 12:59:39,0.464s,PASSED
+closeBrowser(),Firefox 99.0,,,2022-04-26 12:59:39,2022-04-26 12:59:40,0.594s,PASSED

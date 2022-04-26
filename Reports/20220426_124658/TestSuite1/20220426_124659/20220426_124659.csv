@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Firefox 99.0,,,2022-04-26 12:47:01,2022-04-26 12:47:49,47.612s,PASSED
+,,,,,,,
+Test Cases/Test1,Firefox 99.0,,,2022-04-26 12:47:01,2022-04-26 12:47:13,12.112s,PASSED
+"openBrowser("""")",Firefox 99.0,,,2022-04-26 12:47:01,2022-04-26 12:47:05,3.833s,PASSED
+"navigateToUrl(""https://demo-store.katalon.com/"")",Firefox 99.0,,,2022-04-26 12:47:05,2022-04-26 12:47:10,4.699s,PASSED
+"click(findTestObject(""Test1_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ""))",Firefox 99.0,,,2022-04-26 12:47:10,2022-04-26 12:47:10,0.584s,PASSED
+"setText(findTestObject(""Object Repository/Test1_OR/Page_Zack Market/input_Email_email""), ""erika1231@mailinator.com"")",Firefox 99.0,,,2022-04-26 12:47:10,2022-04-26 12:47:11,0.540s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Test1_OR/Page_Zack Market/input_Password_password""), ""0cU2R0tWEjl49ICU6OTr2A=="")",Firefox 99.0,,,2022-04-26 12:47:11,2022-04-26 12:47:11,0.292s,PASSED
+"click(findTestObject(""Object Repository/Test1_OR/Page_Zack Market/input_Password_button_btn__2lzmo""))",Firefox 99.0,,,2022-04-26 12:47:11,2022-04-26 12:47:12,0.474s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Test1_OR/Page_Zack Market/div_Zack Market""), 0)",Firefox 99.0,,,2022-04-26 12:47:12,2022-04-26 12:47:13,0.971s,PASSED
+closeBrowser(),Firefox 99.0,,,2022-04-26 12:47:13,2022-04-26 12:47:13,0.515s,PASSED
+,,,,,,,
+Test Cases/Test3,Firefox 99.0,,,2022-04-26 12:47:13,2022-04-26 12:47:38,24.727s,PASSED
+"openBrowser(""https://lifecharger.org"")",Firefox 99.0,,,2022-04-26 12:47:13,2022-04-26 12:47:27,13.909s,PASSED
+"setText(findTestObject(""Test3_OR/Page_Life Charger   a new beginning/input_Search for_s""), ""Life"")",Firefox 99.0,,,2022-04-26 12:47:27,2022-04-26 12:47:28,0.712s,PASSED
+"click(findTestObject(""Test3_OR/Page_Life Charger   a new beginning/button_Search for_search-submit""))",Firefox 99.0,,,2022-04-26 12:47:28,2022-04-26 12:47:32,4.367s,PASSED
+"click(findTestObject(""Test3_OR/Page_Make the rest of your life the best of your life  Life Charger/a_Make the rest of your life the best of your life""))",Firefox 99.0,,,2022-04-26 12:47:32,2022-04-26 12:47:37,4.573s,PASSED
+"verifyElementPresent(findTestObject(""Test3_OR/Page_Search Results for life  Life Charger/a_Make the rest of your life the best of your life""), 0)",Firefox 99.0,,,2022-04-26 12:47:37,2022-04-26 12:47:37,0.453s,PASSED
+closeBrowser(),Firefox 99.0,,,2022-04-26 12:47:37,2022-04-26 12:47:38,0.582s,PASSED
+,,,,,,,
+Test Cases/Test2,Firefox 99.0,,,2022-04-26 12:47:38,2022-04-26 12:47:49,10.610s,PASSED
+"openBrowser(""https://demo-store.katalon.com/"")",Firefox 99.0,,,2022-04-26 12:47:38,2022-04-26 12:47:44,6.011s,PASSED
+"click(findTestObject(""Test2_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ""))",Firefox 99.0,,,2022-04-26 12:47:44,2022-04-26 12:47:45,0.524s,PASSED
+"setText(findTestObject(""Test2_OR/Page_Zack Market/input_Email_email""), ""erika1231@mailinator.com"")",Firefox 99.0,,,2022-04-26 12:47:45,2022-04-26 12:47:45,0.520s,PASSED
+"setText(findTestObject(""Test2_OR/Page_Zack Market/input_Password_password""), ""P@55word"")",Firefox 99.0,,,2022-04-26 12:47:45,2022-04-26 12:47:46,0.494s,PASSED
+"click(findTestObject(""Test2_OR/Page_Zack Market/input_Password_button_btn__2lzmo""))",Firefox 99.0,,,2022-04-26 12:47:46,2022-04-26 12:47:46,0.479s,PASSED
+"verifyElementPresent(findTestObject(""Test2_OR/Page_Zack Market/div_Zack Market""), 0)",Firefox 99.0,,,2022-04-26 12:47:46,2022-04-26 12:47:47,1.031s,PASSED
+"click(findTestObject(""Test2_OR/Page_Zack Market/a_Women""))",Firefox 99.0,,,2022-04-26 12:47:47,2022-04-26 12:47:48,0.488s,PASSED
+"click(findTestObject(""Test2_OR/Page_Zack Market/a_Blazer""))",Firefox 99.0,,,2022-04-26 12:47:48,2022-04-26 12:47:48,0.474s,PASSED
+closeBrowser(),Firefox 99.0,,,2022-04-26 12:47:48,2022-04-26 12:47:49,0.470s,PASSED

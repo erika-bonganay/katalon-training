@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 100.0.4896.127,,,2022-04-26 12:59:09,2022-04-26 13:00:05,55.410s,PASSED
+,,,,,,,
+Test Cases/Test1,Chrome 100.0.4896.127,,,2022-04-26 12:59:10,2022-04-26 12:59:21,10.916s,PASSED
+"openBrowser("""")",Chrome 100.0.4896.127,,,2022-04-26 12:59:10,2022-04-26 12:59:12,2.284s,PASSED
+"navigateToUrl(""https://demo-store.katalon.com/"")",Chrome 100.0.4896.127,,,2022-04-26 12:59:12,2022-04-26 12:59:17,5.167s,PASSED
+"click(findTestObject(""Test1_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ""))",Chrome 100.0.4896.127,,,2022-04-26 12:59:17,2022-04-26 12:59:18,0.370s,PASSED
+"setText(findTestObject(""Object Repository/Test1_OR/Page_Zack Market/input_Email_email""), ""erika1231@mailinator.com"")",Chrome 100.0.4896.127,,,2022-04-26 12:59:18,2022-04-26 12:59:19,0.772s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Test1_OR/Page_Zack Market/input_Password_password""), ""0cU2R0tWEjl49ICU6OTr2A=="")",Chrome 100.0.4896.127,,,2022-04-26 12:59:19,2022-04-26 12:59:19,0.439s,PASSED
+"click(findTestObject(""Object Repository/Test1_OR/Page_Zack Market/input_Password_button_btn__2lzmo""))",Chrome 100.0.4896.127,,,2022-04-26 12:59:19,2022-04-26 12:59:19,0.323s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Test1_OR/Page_Zack Market/div_Zack Market""), 0)",Chrome 100.0.4896.127,,,2022-04-26 12:59:19,2022-04-26 12:59:21,1.179s,PASSED
+closeBrowser(),Chrome 100.0.4896.127,,,2022-04-26 12:59:21,2022-04-26 12:59:21,0.095s,PASSED
+,,,,,,,
+Test Cases/Test2,Chrome 100.0.4896.127,,,2022-04-26 12:59:21,2022-04-26 12:59:34,13.197s,PASSED
+"openBrowser(""https://demo-store.katalon.com/"")",Chrome 100.0.4896.127,,,2022-04-26 12:59:21,2022-04-26 12:59:25,4.551s,PASSED
+"click(findTestObject(""Test2_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ""))",Chrome 100.0.4896.127,,,2022-04-26 12:59:25,2022-04-26 12:59:26,0.624s,PASSED
+"setText(findTestObject(""Test2_OR/Page_Zack Market/input_Email_email""), ""erika1231@mailinator.com"")",Chrome 100.0.4896.127,,,2022-04-26 12:59:26,2022-04-26 12:59:27,0.818s,PASSED
+"setText(findTestObject(""Test2_OR/Page_Zack Market/input_Password_password""), ""P@55word"")",Chrome 100.0.4896.127,,,2022-04-26 12:59:27,2022-04-26 12:59:27,0.639s,PASSED
+"click(findTestObject(""Test2_OR/Page_Zack Market/input_Password_button_btn__2lzmo""))",Chrome 100.0.4896.127,,,2022-04-26 12:59:27,2022-04-26 12:59:28,0.284s,PASSED
+"verifyElementPresent(findTestObject(""Test2_OR/Page_Zack Market/div_Zack Market""), 0)",Chrome 100.0.4896.127,,,2022-04-26 12:59:28,2022-04-26 12:59:30,1.996s,PASSED
+"click(findTestObject(""Test2_OR/Page_Zack Market/a_Women""))",Chrome 100.0.4896.127,,,2022-04-26 12:59:30,2022-04-26 12:59:32,2.036s,PASSED
+"click(findTestObject(""Test2_OR/Page_Zack Market/a_Blazer""))",Chrome 100.0.4896.127,,,2022-04-26 12:59:32,2022-04-26 12:59:34,2.019s,PASSED
+closeBrowser(),Chrome 100.0.4896.127,,,2022-04-26 12:59:34,2022-04-26 12:59:34,0.094s,PASSED
+,,,,,,,
+Test Cases/Test3,Chrome 100.0.4896.127,,,2022-04-26 12:59:34,2022-04-26 13:00:05,31.069s,PASSED
+"openBrowser(""https://lifecharger.org"")",Chrome 100.0.4896.127,,,2022-04-26 12:59:34,2022-04-26 12:59:49,14.889s,PASSED
+"setText(findTestObject(""Test3_OR/Page_Life Charger   a new beginning/input_Search for_s""), ""Life"")",Chrome 100.0.4896.127,,,2022-04-26 12:59:49,2022-04-26 12:59:53,3.963s,PASSED
+"click(findTestObject(""Test3_OR/Page_Life Charger   a new beginning/button_Search for_search-submit""))",Chrome 100.0.4896.127,,,2022-04-26 12:59:53,2022-04-26 12:59:59,5.747s,PASSED
+"click(findTestObject(""Test3_OR/Page_Make the rest of your life the best of your life  Life Charger/a_Make the rest of your life the best of your life""))",Chrome 100.0.4896.127,,,2022-04-26 12:59:59,2022-04-26 13:00:03,4.275s,PASSED
+"verifyElementPresent(findTestObject(""Test3_OR/Page_Search Results for life  Life Charger/a_Make the rest of your life the best of your life""), 0)",Chrome 100.0.4896.127,,,2022-04-26 13:00:03,2022-04-26 13:00:05,1.900s,PASSED
+closeBrowser(),Chrome 100.0.4896.127,,,2022-04-26 13:00:05,2022-04-26 13:00:05,0.170s,PASSED

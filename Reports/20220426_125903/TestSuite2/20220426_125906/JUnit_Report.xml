@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite2" time="30.489" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite2" tests="1" failures="0" errors="0" time="30.489" skipped="0" timestamp="2022-04-26 12:59:10" hostname="erikabonganay - 127.10.0.4" id="Test Suites/TestSuite2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/erikabonganay/git/katalon-training/Reports/20220426_125903/TestSuite2/20220426_125906"/>
+         <property name="logFiles" value="/Users/erikabonganay/git/katalon-training/Reports/20220426_125903/TestSuite2/20220426_125906/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="erikabonganay - 127.10.0.4"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Firefox 99.0"/>
+         <property name="hostAddress" value="127.10.0.4"/>
+         <property name="sessionId" value="2981fe0c-ba1b-4493-b85d-0dfe71579840"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Test3" time="30.288" classname="Test Cases/Test3" status="PASSED">
+         <system-out><![CDATA[2022-04-26 12:59:10 - [TEST_CASE][PASSED] - Test Cases/Test3: Test Cases/Test3
+
+2022-04-26 12:59:10 - [TEST_STEP][PASSED] - openBrowser("https://lifecharger.org"): Browser is opened with url: 'https://lifecharger.org'
+
+2022-04-26 12:59:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-04-26 12:59:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-26 12:59:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://lifecharger.org'
+
+2022-04-26 12:59:25 - [TEST_STEP][PASSED] - setText(findTestObject("Test3_OR/Page_Life Charger   a new beginning/input_Search for_s"), "Life"): Text 'Life' is set on object 'Object Repository/Test3_OR/Page_Life Charger   a new beginning/input_Search for_s'
+
+2022-04-26 12:59:26 - [MESSAGE][PASSED] - Text 'Life' is set on object 'Object Repository/Test3_OR/Page_Life Charger   a new beginning/input_Search for_s'
+
+2022-04-26 12:59:26 - [TEST_STEP][PASSED] - click(findTestObject("Test3_OR/Page_Life Charger   a new beginning/button_Search for_search-submit")): Object: 'Object Repository/Test3_OR/Page_Life Charger   a new beginning/button_Search for_search-submit' is clicked on
+
+2022-04-26 12:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Test3_OR/Page_Life Charger   a new beginning/button_Search for_search-submit' is clicked on
+
+2022-04-26 12:59:34 - [TEST_STEP][PASSED] - click(findTestObject("Test3_OR/Page_Make the rest of your life the best of your life  Life Charger/a_Make the rest of your life the best of your life")): Object: 'Object Repository/Test3_OR/Page_Make the rest of your life the best of your life  Life Charger/a_Make the rest of your life the best of your life' is clicked on
+
+2022-04-26 12:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Test3_OR/Page_Make the rest of your life the best of your life  Life Charger/a_Make the rest of your life the best of your life' is clicked on
+
+2022-04-26 12:59:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Test3_OR/Page_Search Results for life  Life Charger/a_Make the rest of your life the best of your life"), 0): Object 'Object Repository/Test3_OR/Page_Search Results for life  Life Charger/a_Make the rest of your life the best of your life' is present
+
+2022-04-26 12:59:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-26 12:59:39 - [MESSAGE][PASSED] - Object 'Object Repository/Test3_OR/Page_Search Results for life  Life Charger/a_Make the rest of your life the best of your life' is present
+
+2022-04-26 12:59:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-26 12:59:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-26 12:59:10 - [TEST_SUITE][PASSED] - TestSuite2: Test Cases/Test3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
