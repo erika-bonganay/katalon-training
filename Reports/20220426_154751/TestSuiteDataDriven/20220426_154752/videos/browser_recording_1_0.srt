@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:04,483
+1. openBrowser("https://demo-store.katalon.com/")
+
+2
+00:00:04,488 --> 00:00:04,838
+5. click(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ"))
+
+3
+00:00:04,838 --> 00:00:05,677
+9. setText(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email"), Username)
+
+4
+00:00:05,677 --> 00:00:06,225
+13. setText(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/input_Password_password"), Password)
+
+5
+00:00:06,225 --> 00:00:06,548
+17. click(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/input_Required_button_btn__2lzmo"))
+
+6
+00:00:06,549 --> 00:00:08,066
+21. verifyElementPresent(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market"), 0)
+
+7
+00:00:08,066 --> 00:00:09,093
+25. takeScreenshot()
+
+8
+00:00:09,093 --> 00:00:09,182
+29. closeBrowser()
+

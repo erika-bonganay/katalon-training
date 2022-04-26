@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteDataDriven" time="23.55" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuiteDataDriven" tests="2" failures="0" errors="0" time="23.55" skipped="0" timestamp="2022-04-26 15:47:54" hostname="erikabonganay - 127.10.0.4" id="Test Suites/TestSuiteDataDriven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/erikabonganay/git/katalon-training/Reports/20220426_154751/TestSuiteDataDriven/20220426_154752"/>
+         <property name="logFiles" value="/Users/erikabonganay/git/katalon-training/Reports/20220426_154751/TestSuiteDataDriven/20220426_154752/execution0.log"/>
+         <property name="attachments" value="/Users/erikabonganay/git/katalon-training/Reports/20220426_154751/TestSuiteDataDriven/20220426_154752/1650959286394.png, /Users/erikabonganay/git/katalon-training/Reports/20220426_154751/TestSuiteDataDriven/20220426_154752/1650959296818.png"/>
+         <property name="hostName" value="erikabonganay - 127.10.0.4"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 100.0.4896.127"/>
+         <property name="hostAddress" value="127.10.0.4"/>
+         <property name="sessionId" value="d79534a625a892b65e98cb508ae18658"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/DataDrivenTest/TestCaseDataDriven" time="12.847" classname="Test Cases/DataDrivenTest/TestCaseDataDriven" status="PASSED">
+         <system-out><![CDATA[2022-04-26 15:47:54 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTest/TestCaseDataDriven: Test Cases/DataDrivenTest/TestCaseDataDriven
+
+2022-04-26 15:47:54 - [TEST_STEP][PASSED] - openBrowser("https://demo-store.katalon.com/"): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+2022-04-26 15:47:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-26 15:47:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-26 15:48:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+2022-04-26 15:48:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ")): Object: 'Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ' is clicked on
+
+2022-04-26 15:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ' is clicked on
+
+2022-04-26 15:48:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email"), Username): Text 'erika1231@mailinator.com' is set on object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email'
+
+2022-04-26 15:48:03 - [MESSAGE][PASSED] - Text 'erika1231@mailinator.com' is set on object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email'
+
+2022-04-26 15:48:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/input_Password_password"), Password): Text 'P@55word' is set on object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Password_password'
+
+2022-04-26 15:48:04 - [MESSAGE][PASSED] - Text 'P@55word' is set on object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Password_password'
+
+2022-04-26 15:48:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/input_Required_button_btn__2lzmo")): Object: 'Object Repository/DataDriven_OR/Page_Zack Market/input_Required_button_btn__2lzmo' is clicked on
+
+2022-04-26 15:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/DataDriven_OR/Page_Zack Market/input_Required_button_btn__2lzmo' is clicked on
+
+2022-04-26 15:48:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market"), 0): Object 'Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market' is present
+
+2022-04-26 15:48:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-26 15:48:06 - [MESSAGE][PASSED] - Object 'Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market' is present
+
+2022-04-26 15:48:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-04-26 15:48:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/erikabonganay/git/katalon-training/Reports/20220426_154751/TestSuiteDataDriven/20220426_154752/1650959286394.png]]
+
+2022-04-26 15:48:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-26 15:48:07 - [MESSAGE][PASSED] - Browser is closed
+
+2022-04-26 15:48:07 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/DataDrivenTest/TestCaseDataDriven' .
+
+2022-04-26 15:48:07 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/DataDrivenTest/TestCaseDataDriven' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDrivenTest/TestCaseDataDriven" time="10.469" classname="Test Cases/DataDrivenTest/TestCaseDataDriven" status="PASSED">
+         <system-out><![CDATA[2022-04-26 15:48:07 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTest/TestCaseDataDriven: Test Cases/DataDrivenTest/TestCaseDataDriven
+
+2022-04-26 15:48:07 - [TEST_STEP][PASSED] - openBrowser("https://demo-store.katalon.com/"): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+2022-04-26 15:48:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-26 15:48:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-26 15:48:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+2022-04-26 15:48:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ")): Object: 'Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ' is clicked on
+
+2022-04-26 15:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ' is clicked on
+
+2022-04-26 15:48:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email"), Username): Text 'erikac1231@mailinator.com' is set on object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email'
+
+2022-04-26 15:48:14 - [MESSAGE][PASSED] - Text 'erikac1231@mailinator.com' is set on object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email'
+
+2022-04-26 15:48:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/input_Password_password"), Password): Text 'P@55word' is set on object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Password_password'
+
+2022-04-26 15:48:14 - [MESSAGE][PASSED] - Text 'P@55word' is set on object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Password_password'
+
+2022-04-26 15:48:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/input_Required_button_btn__2lzmo")): Object: 'Object Repository/DataDriven_OR/Page_Zack Market/input_Required_button_btn__2lzmo' is clicked on
+
+2022-04-26 15:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/DataDriven_OR/Page_Zack Market/input_Required_button_btn__2lzmo' is clicked on
+
+2022-04-26 15:48:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market"), 0): Object 'Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market' is present
+
+2022-04-26 15:48:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-26 15:48:16 - [MESSAGE][PASSED] - Object 'Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market' is present
+
+2022-04-26 15:48:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-04-26 15:48:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/erikabonganay/git/katalon-training/Reports/20220426_154751/TestSuiteDataDriven/20220426_154752/1650959296818.png]]
+
+2022-04-26 15:48:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-26 15:48:17 - [MESSAGE][PASSED] - Browser is closed
+
+2022-04-26 15:48:17 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/DataDrivenTest/TestCaseDataDriven' .
+
+2022-04-26 15:48:17 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/DataDrivenTest/TestCaseDataDriven' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-26 15:47:54 - [TEST_SUITE][PASSED] - TestSuiteDataDriven: Test Cases/DataDrivenTest/TestCaseDataDriven]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

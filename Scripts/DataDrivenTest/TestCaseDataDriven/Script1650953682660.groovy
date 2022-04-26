@@ -40,5 +40,7 @@ WebUI.click(findTestObject('Object Repository/DataDriven_OR/Page_Zack Market/inp
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market'), 0)
 
+WebUI.takeScreenshot()
+
 WebUI.closeBrowser()
 

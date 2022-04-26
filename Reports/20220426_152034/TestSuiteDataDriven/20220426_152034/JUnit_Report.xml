@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteDataDriven" time="161.041" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuiteDataDriven" tests="2" failures="0" errors="0" time="161.041" skipped="0" timestamp="2022-04-26 15:20:35" hostname="erikabonganay - 127.10.0.4" id="Test Suites/TestSuiteDataDriven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/erikabonganay/git/katalon-training/Reports/20220426_152034/TestSuiteDataDriven/20220426_152034"/>
+         <property name="logFiles" value="/Users/erikabonganay/git/katalon-training/Reports/20220426_152034/TestSuiteDataDriven/20220426_152034/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="erikabonganay - 127.10.0.4"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 100.0.4896.127"/>
+         <property name="hostAddress" value="127.10.0.4"/>
+         <property name="sessionId" value="7e38eb4bf607a3d028b90bcc50b13f38"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/DataDrivenTest/TestCaseDataDriven" time="85.431" classname="Test Cases/DataDrivenTest/TestCaseDataDriven" status="PASSED">
+         <system-out><![CDATA[2022-04-26 15:20:35 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTest/TestCaseDataDriven: Test Cases/DataDrivenTest/TestCaseDataDriven
+
+2022-04-26 15:20:36 - [TEST_STEP][PASSED] - openBrowser("https://demo-store.katalon.com/"): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+2022-04-26 15:20:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-26 15:20:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-26 15:20:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+2022-04-26 15:20:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ")): Object: 'Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ' is clicked on
+
+2022-04-26 15:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ' is clicked on
+
+2022-04-26 15:20:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email"), Username): Text 'erika1231@mailinator.com' is set on object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email'
+
+2022-04-26 15:21:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='emails']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-26 15:21:16 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email'. Try using Self-healing.
+
+2022-04-26 15:21:18 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//input[@name='email']'.
+
+2022-04-26 15:21:18 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: /Users/erikabonganay/git/katalon-training/Reports/Self-healing/Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email_attributes.png
+
+2022-04-26 15:21:18 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email' was broken. Propose an alternative one: '//input[@name='email']'.
+
+2022-04-26 15:21:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='emails']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-26 15:21:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email'. Try using Self-healing.
+
+2022-04-26 15:21:52 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email' was broken. Propose an alternative one: '//input[@name='email']'.
+
+2022-04-26 15:21:52 - [MESSAGE][PASSED] - Text 'erika1231@mailinator.com' is set on object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email'
+
+2022-04-26 15:21:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/input_Password_password"), Password): Text 'P@55word' is set on object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Password_password'
+
+2022-04-26 15:21:56 - [MESSAGE][PASSED] - Text 'P@55word' is set on object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Password_password'
+
+2022-04-26 15:21:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/input_Required_button_btn__2lzmo")): Object: 'Object Repository/DataDriven_OR/Page_Zack Market/input_Required_button_btn__2lzmo' is clicked on
+
+2022-04-26 15:21:58 - [MESSAGE][PASSED] - Object: 'Object Repository/DataDriven_OR/Page_Zack Market/input_Required_button_btn__2lzmo' is clicked on
+
+2022-04-26 15:21:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market"), 0): Object 'Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market' is present
+
+2022-04-26 15:21:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-26 15:22:01 - [MESSAGE][PASSED] - Object 'Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market' is present
+
+2022-04-26 15:22:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-26 15:22:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDrivenTest/TestCaseDataDriven" time="75.371" classname="Test Cases/DataDrivenTest/TestCaseDataDriven" status="PASSED">
+         <system-out><![CDATA[2022-04-26 15:22:01 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTest/TestCaseDataDriven: Test Cases/DataDrivenTest/TestCaseDataDriven
+
+2022-04-26 15:22:01 - [TEST_STEP][PASSED] - openBrowser("https://demo-store.katalon.com/"): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+2022-04-26 15:22:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-26 15:22:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-26 15:22:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+2022-04-26 15:22:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ")): Object: 'Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ' is clicked on
+
+2022-04-26 15:22:07 - [MESSAGE][PASSED] - Object: 'Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ' is clicked on
+
+2022-04-26 15:22:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email"), Username): Text 'erikac1231@mailinator.com' is set on object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email'
+
+2022-04-26 15:22:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='emails']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-26 15:22:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email'. Try using Self-healing.
+
+2022-04-26 15:22:42 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email' was broken. Propose an alternative one: '//input[@name='email']'.
+
+2022-04-26 15:23:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@name='emails']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-26 15:23:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email'. Try using Self-healing.
+
+2022-04-26 15:23:13 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email' was broken. Propose an alternative one: '//input[@name='email']'.
+
+2022-04-26 15:23:14 - [MESSAGE][PASSED] - Text 'erikac1231@mailinator.com' is set on object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email'
+
+2022-04-26 15:23:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/input_Password_password"), Password): Text 'P@55word' is set on object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Password_password'
+
+2022-04-26 15:23:14 - [MESSAGE][PASSED] - Text 'P@55word' is set on object 'Object Repository/DataDriven_OR/Page_Zack Market/input_Password_password'
+
+2022-04-26 15:23:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/input_Required_button_btn__2lzmo")): Object: 'Object Repository/DataDriven_OR/Page_Zack Market/input_Required_button_btn__2lzmo' is clicked on
+
+2022-04-26 15:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/DataDriven_OR/Page_Zack Market/input_Required_button_btn__2lzmo' is clicked on
+
+2022-04-26 15:23:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market"), 0): Object 'Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market' is present
+
+2022-04-26 15:23:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-26 15:23:16 - [MESSAGE][PASSED] - Object 'Object Repository/DataDriven_OR/Page_Zack Market/div_Zack Market' is present
+
+2022-04-26 15:23:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-26 15:23:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-26 15:20:35 - [TEST_SUITE][PASSED] - TestSuiteDataDriven: Test Cases/DataDrivenTest/TestCaseDataDriven]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

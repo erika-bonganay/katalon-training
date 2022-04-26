@@ -6,6 +6,7 @@
    <UUID>200874e8-8f89-4869-b590-829ca1c4f141</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/erikabonganay/git/katalon-training/katalon-training.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
