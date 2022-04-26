@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="47.612" tests="3" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="3" failures="0" errors="0" time="47.612" skipped="0" timestamp="2022-04-26 12:47:01" hostname="erikabonganay - 127.10.0.4" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/erikabonganay/git/katalon-training/Reports/20220426_124658/TestSuite1/20220426_124659"/>
+         <property name="logFiles" value="/Users/erikabonganay/git/katalon-training/Reports/20220426_124658/TestSuite1/20220426_124659/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="erikabonganay - 127.10.0.4"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Firefox 99.0"/>
+         <property name="hostAddress" value="127.10.0.4"/>
+         <property name="sessionId" value="154e5dd2-d7b9-495a-b627-870ba0c382b1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Test1" time="12.112" classname="Test Cases/Test1" status="PASSED">
+         <system-out><![CDATA[2022-04-26 12:47:01 - [TEST_CASE][PASSED] - Test Cases/Test1: Test Cases/Test1
+
+2022-04-26 12:47:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-26 12:47:02 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-04-26 12:47:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-26 12:47:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-26 12:47:05 - [TEST_STEP][PASSED] - navigateToUrl("https://demo-store.katalon.com/"): Navigate to 'https://demo-store.katalon.com/' successfully
+
+2022-04-26 12:47:10 - [MESSAGE][PASSED] - Navigate to 'https://demo-store.katalon.com/' successfully
+
+2022-04-26 12:47:10 - [TEST_STEP][PASSED] - click(findTestObject("Test1_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ")): Object: 'Object Repository/Test1_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ' is clicked on
+
+2022-04-26 12:47:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Test1_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ' is clicked on
+
+2022-04-26 12:47:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test1_OR/Page_Zack Market/input_Email_email"), "erika1231@mailinator.com"): Text 'erika1231@mailinator.com' is set on object 'Object Repository/Test1_OR/Page_Zack Market/input_Email_email'
+
+2022-04-26 12:47:11 - [MESSAGE][PASSED] - Text 'erika1231@mailinator.com' is set on object 'Object Repository/Test1_OR/Page_Zack Market/input_Email_email'
+
+2022-04-26 12:47:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Test1_OR/Page_Zack Market/input_Password_password"), "0cU2R0tWEjl49ICU6OTr2A=="): Text ****** has been set on object 'Object Repository/Test1_OR/Page_Zack Market/input_Password_password'
+
+2022-04-26 12:47:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Test1_OR/Page_Zack Market/input_Password_password'
+
+2022-04-26 12:47:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test1_OR/Page_Zack Market/input_Password_button_btn__2lzmo")): Object: 'Object Repository/Test1_OR/Page_Zack Market/input_Password_button_btn__2lzmo' is clicked on
+
+2022-04-26 12:47:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Test1_OR/Page_Zack Market/input_Password_button_btn__2lzmo' is clicked on
+
+2022-04-26 12:47:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Test1_OR/Page_Zack Market/div_Zack Market"), 0): Object 'Object Repository/Test1_OR/Page_Zack Market/div_Zack Market' is present
+
+2022-04-26 12:47:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-26 12:47:13 - [MESSAGE][PASSED] - Object 'Object Repository/Test1_OR/Page_Zack Market/div_Zack Market' is present
+
+2022-04-26 12:47:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-26 12:47:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test3" time="24.727" classname="Test Cases/Test3" status="PASSED">
+         <system-out><![CDATA[2022-04-26 12:47:13 - [TEST_CASE][PASSED] - Test Cases/Test3: Test Cases/Test3
+
+2022-04-26 12:47:13 - [TEST_STEP][PASSED] - openBrowser("https://lifecharger.org"): Browser is opened with url: 'https://lifecharger.org'
+
+2022-04-26 12:47:13 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-04-26 12:47:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-26 12:47:27 - [MESSAGE][PASSED] - Browser is opened with url: 'https://lifecharger.org'
+
+2022-04-26 12:47:27 - [TEST_STEP][PASSED] - setText(findTestObject("Test3_OR/Page_Life Charger   a new beginning/input_Search for_s"), "Life"): Text 'Life' is set on object 'Object Repository/Test3_OR/Page_Life Charger   a new beginning/input_Search for_s'
+
+2022-04-26 12:47:28 - [MESSAGE][PASSED] - Text 'Life' is set on object 'Object Repository/Test3_OR/Page_Life Charger   a new beginning/input_Search for_s'
+
+2022-04-26 12:47:28 - [TEST_STEP][PASSED] - click(findTestObject("Test3_OR/Page_Life Charger   a new beginning/button_Search for_search-submit")): Object: 'Object Repository/Test3_OR/Page_Life Charger   a new beginning/button_Search for_search-submit' is clicked on
+
+2022-04-26 12:47:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Test3_OR/Page_Life Charger   a new beginning/button_Search for_search-submit' is clicked on
+
+2022-04-26 12:47:32 - [TEST_STEP][PASSED] - click(findTestObject("Test3_OR/Page_Make the rest of your life the best of your life  Life Charger/a_Make the rest of your life the best of your life")): Object: 'Object Repository/Test3_OR/Page_Make the rest of your life the best of your life  Life Charger/a_Make the rest of your life the best of your life' is clicked on
+
+2022-04-26 12:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Test3_OR/Page_Make the rest of your life the best of your life  Life Charger/a_Make the rest of your life the best of your life' is clicked on
+
+2022-04-26 12:47:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Test3_OR/Page_Search Results for life  Life Charger/a_Make the rest of your life the best of your life"), 0): Object 'Object Repository/Test3_OR/Page_Search Results for life  Life Charger/a_Make the rest of your life the best of your life' is present
+
+2022-04-26 12:47:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-26 12:47:37 - [MESSAGE][PASSED] - Object 'Object Repository/Test3_OR/Page_Search Results for life  Life Charger/a_Make the rest of your life the best of your life' is present
+
+2022-04-26 12:47:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-26 12:47:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test2" time="10.61" classname="Test Cases/Test2" status="PASSED">
+         <system-out><![CDATA[2022-04-26 12:47:38 - [TEST_CASE][PASSED] - Test Cases/Test2: Test Cases/Test2
+
+2022-04-26 12:47:38 - [TEST_STEP][PASSED] - openBrowser("https://demo-store.katalon.com/"): Browser is opened with url: 'https://demo-store.katalon.com/'
+
+2022-04-26 12:47:38 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-04-26 12:47:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-26 12:47:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-store.katalon.com/'
+
+2022-04-26 12:47:44 - [TEST_STEP][PASSED] - click(findTestObject("Test2_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ")): Object: 'Object Repository/Test2_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ' is clicked on
+
+2022-04-26 12:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Test2_OR/Page_Zack Market/div_Zack Market_userHeader_tag__2vbdQ' is clicked on
+
+2022-04-26 12:47:45 - [TEST_STEP][PASSED] - setText(findTestObject("Test2_OR/Page_Zack Market/input_Email_email"), "erika1231@mailinator.com"): Text 'erika1231@mailinator.com' is set on object 'Object Repository/Test2_OR/Page_Zack Market/input_Email_email'
+
+2022-04-26 12:47:45 - [MESSAGE][PASSED] - Text 'erika1231@mailinator.com' is set on object 'Object Repository/Test2_OR/Page_Zack Market/input_Email_email'
+
+2022-04-26 12:47:45 - [TEST_STEP][PASSED] - setText(findTestObject("Test2_OR/Page_Zack Market/input_Password_password"), "P@55word"): Text 'P@55word' is set on object 'Object Repository/Test2_OR/Page_Zack Market/input_Password_password'
+
+2022-04-26 12:47:46 - [MESSAGE][PASSED] - Text 'P@55word' is set on object 'Object Repository/Test2_OR/Page_Zack Market/input_Password_password'
+
+2022-04-26 12:47:46 - [TEST_STEP][PASSED] - click(findTestObject("Test2_OR/Page_Zack Market/input_Password_button_btn__2lzmo")): Object: 'Object Repository/Test2_OR/Page_Zack Market/input_Password_button_btn__2lzmo' is clicked on
+
+2022-04-26 12:47:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Test2_OR/Page_Zack Market/input_Password_button_btn__2lzmo' is clicked on
+
+2022-04-26 12:47:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Test2_OR/Page_Zack Market/div_Zack Market"), 0): Object 'Object Repository/Test2_OR/Page_Zack Market/div_Zack Market' is present
+
+2022-04-26 12:47:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-26 12:47:47 - [MESSAGE][PASSED] - Object 'Object Repository/Test2_OR/Page_Zack Market/div_Zack Market' is present
+
+2022-04-26 12:47:47 - [TEST_STEP][PASSED] - click(findTestObject("Test2_OR/Page_Zack Market/a_Women")): Object: 'Object Repository/Test2_OR/Page_Zack Market/a_Women' is clicked on
+
+2022-04-26 12:47:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Test2_OR/Page_Zack Market/a_Women' is clicked on
+
+2022-04-26 12:47:48 - [TEST_STEP][PASSED] - click(findTestObject("Test2_OR/Page_Zack Market/a_Blazer")): Object: 'Object Repository/Test2_OR/Page_Zack Market/a_Blazer' is clicked on
+
+2022-04-26 12:47:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Test2_OR/Page_Zack Market/a_Blazer' is clicked on
+
+2022-04-26 12:47:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-26 12:47:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-26 12:47:01 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/Test2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
