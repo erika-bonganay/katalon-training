@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email",
+      "brokenLocator": "//input[@name\u003d\u0027emails\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@name\u003d\u0027email\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220426_152034/TestSuiteDataDriven/20220426_152034/Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email_attributes.png"
+    }
+  ]
+}

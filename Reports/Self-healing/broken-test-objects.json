@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email",
+      "brokenLocator": "//input[@name\u003d\u0027emails\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@name\u003d\u0027email\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/DataDriven_OR/Page_Zack Market/input_Email_email_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Test1_OR/Page_Zack Market/input_Email_email",
+      "brokenLocator": "//input[@name\u003d\u0027emails\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@type \u003d \u0027text\u0027 and @name \u003d \u0027email\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Test1_OR/Page_Zack Market/input_Email_email_BASIC.png"
+    }
+  ]
 }
